@@ -131,7 +131,14 @@ body {
   background-color:#bab2b5 ;
   border-color:#bab2b5;
 
-}.btn-darkblue{
+}
+.btn-darkviolet{
+   color: #212529;
+  background-color:rgb(204, 86, 130);
+  border-color:rgb(204, 86, 130);
+
+}
+.btn-darkblue{
    color: #212529;
   background-color:#123c69 ;
   border-color:#123c69;
@@ -158,8 +165,8 @@ body {
 
 }.btn-rose{
    color: #212529;
-  background-color:#E64398 ;
-  border-color:#E64398;
+  background-color:rgb(255, 0, 127) ;
+  border-color:rgb(255, 0, 127);
 
 }.btn-skyblue{
    color: #212529;
@@ -167,7 +174,18 @@ body {
   border-color:#a1c3d1;
 
 }
+.btn-rose1{
+   color: #212529;
+  background-color:rgb(194, 39, 120); 
+  border-color:rgb(194, 39, 120);
 
+}
+.btn-rose2{
+   color: #212529;
+  background-color:rgb(161, 2, 85); 
+  border-color:rgb(161, 2, 85);
+
+}
 .navbar-dark {
      background-color: #b39bc8 ;
      box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.6);
@@ -678,7 +696,8 @@ body {
   width: 100%;
   min-height: 100vh;
   border-top: 2px solid #e14eca;
-  background: linear-gradient(#1e1e2f, #1e1e24);
+ max-width: 100%;
+    overflow-x: hidden;
   -webkit-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   -moz-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   -o-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
@@ -1204,4 +1223,10 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+.card-footer1 {
+  padding: 0.75rem 1.25rem;
+}
+.text-purple {
+  color: rgb(86, 11, 133) !important;
 }
